@@ -1,3 +1,12 @@
+
+### 自己的py文件，支持sock5代理
+``` python
+                    http_proxy = "http://127.0.0.1:10801"
+                    proxyDict = { "http" : http_proxy }
+                    resp = requests.post(url, data=data, headers=headers, proxies=proxyDict)
+```
+
+
 # Autosub <a href="https://pypi.python.org/pypi/autosub"><img src="https://img.shields.io/pypi/v/autosub.svg"></img></a> <a href="https://pypi.python.org/pypi/autosub">
 ### Auto-generated subtitles for any video
 
